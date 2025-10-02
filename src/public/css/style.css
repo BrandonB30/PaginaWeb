@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000000, #a50d0d);
+}
+
+.login-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+.logo {
+  width: 150px;        /* tamaño */
+  height: 150px;       /* igual ancho y alto */
+  border-radius: 50%;  /* círculo */
+  object-fit: cover;   /* recorte para que no se deforme */
+  display: block;
+  margin: 0 auto 20px; /* centrado horizontal y espacio abajo */
+  border: 3px solid #a50d0d; /* borde opcional */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra opcional */
+}
+
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0b5ed7;
+}
+.card-img-top {
+  width: 150px;       /* ancho fijo */
+  height: 150px;      /* alto fijo */
+  object-fit: cover;  /* recorta para que no se deforme */
+  border-radius: 50%; /* hace la imagen circular */
+  display: block;
+  margin: 0 auto;     /* recorta la imagen manteniendo proporción */
+}
